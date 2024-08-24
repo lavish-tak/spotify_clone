@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    font-family: "Nunito", sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;  
+    height: 65px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 12px;
+}
+.brand img{
+  width: 44px;
+  padding: 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 80vh;
+    font-family: "Varela Round", sans-serif;
+    background-color: black;
+    color:aliceblue;
+    display: flex;
+    margin: 23px auto;
+    padding: 30px;
+    border-radius: 12px;
+    width: 70%;
+    background-image: url('./a-picture-of-abstract-music-background-with-notes-and-bokeh-lights-illustration-music-icon-song-time-wavy-shape-generative-ai-photo.jpg');
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    background: rgb(44, 168, 209);
+    height: 0.8rem;
+    border-radius: 20px;
+}
+.bottom{
+    position: sticky;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.icons{
+    margin: 30px;
+    color: aliceblue;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar{
+    width: 80vw;
+    color: rgb(255, 255, 255);
+}
+.songItemcontainer{
+    margin: 74px;
+}
+.songitem{
+  
+  height: 50px;
+  display: flex;
+  background-color: white;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+.songitem img{
+  width: 43px;
+  margin: 23px 0;
+  padding: 15px;
+  
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position:absolute;
+    left: 10vw;
+}
